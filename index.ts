@@ -8,7 +8,7 @@ import {
   MessageInterface,
   MessageQueueAdapterInterface,
   QueueOptions,
-} from '../messageQueueAdapterInterface';
+} from './interface';
 
 const defaultOptions: QueueOptions = {
   autoAcknowledgement: false,
